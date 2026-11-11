@@ -40,9 +40,20 @@ K_pp = (lambda_1*lambda_2)/K1;
 K_pd = -(lambda_1 + lambda_2)/K1;
 
 
-A = [0 1 0 0 0; 0 0 0 0 0; 0 0 0 0 0; -1 0 0 0 0; 0 0 -1 0 0];
-B = [0 0; 0 K1; K2 0; 0 0; 0 0];
-G = [0 0; 0 0; 0 0; 1 0; 0 1];
+A = [0 1 0; 
+    0 0 0; 
+    0 0 0;];
+
+B = [0 0; 
+    0 K1; 
+    K2 0;];
+
+Q = ctrb(A, B);
+if rank(Q) == 3
+    disp("System is controllable")
+else
+    disp("System is not controllable")
+end
 
 qp_max = 1/6;
 qpd_max = 3/60;
@@ -58,14 +69,14 @@ qpd = 1/(qpd_max^2);
 qep = 1/(qed_max^2);
 rvs = 1/(rvs_max^2);
 rvd = 1/(rvd_max^2);
-qgamma = 1/(gamma_max^2);
-qzeta = 1/(zeta_max^2);
 
-Q = diag([qp, qpd, qep, qgamma, qzeta]);
+Q = diag([qp, qpd, qep]);
 R = diag([rvs, rvd]);
 
 [K, S, P] = lqr(A,B,Q,R,0);
-F = [0 0; 0 0];
+
+F = [K(1, 1) K(1, 3);
+    K(2, 1) K(2, 3)];
 
 
 
