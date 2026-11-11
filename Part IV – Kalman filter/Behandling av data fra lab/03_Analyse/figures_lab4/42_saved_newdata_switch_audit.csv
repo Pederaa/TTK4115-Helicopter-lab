@@ -1,0 +1,5 @@
+Item,Saved setting
+Switch criterion,u2 > Threshold
+Switch control input (SID 481),0
+Switch fallback input (SID 480),0
+Threshold property explicitly stored,False

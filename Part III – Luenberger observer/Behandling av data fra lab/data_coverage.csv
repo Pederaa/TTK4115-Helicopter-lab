@@ -1,0 +1,11 @@
+Source,File,Signals,Treatment
+Lab 3 original,task 31playing.mat,1,Unidentified all-zero diagnostic
+Lab 3 original,task 2b byson.mat,8,Six encoder channels + two zero-valued channels
+Lab 3 original,task34_y.mat,5,Five synchronized IMU-derived measurements
+Lab 3 original,task34_xhat.mat,5,Five synchronized observer estimates
+Lab 3 original,task34_u.mat,2,Two synchronized voltage/control channels
+Lab 3 original,taskpocomneg1j10.mat,7,Single vector without time axis
+Second archive / Lab 3-named,task34_xhat.mat,5,Separate short estimate-like recording
+Second archive / Lab 3-named,task34_y.mat,1,Separate zero-valued diagnostic recording
+Second archive / Lab 3-named,task34_u.mat,2,Separate varying-input recording
+Second archive / Lab 3-named,task34_u_early.mat,2,Separate zero-input recording; originally called task34_u.mat

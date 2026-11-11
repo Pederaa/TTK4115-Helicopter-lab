@@ -1,0 +1,4 @@
+item,value,unit
+K2 used by latest init file,0.06478913105009909,rad/s² per V
+K2 expected from preparation Je,0.08504551365409628,rad/s² per V
+(implemented / expected) - 1,-0.23818284743843776,fraction

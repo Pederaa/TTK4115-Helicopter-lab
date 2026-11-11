@@ -1,0 +1,13 @@
+Source,Channel,Unit,Window A,Window B,Std A,Std B,Std ratio A/B
+task41_xhat_noie_grounded.mat,1,m/s²,full grounded recording,grounded t>=1 s,0.04058204888037028,0.013231770183439741,3.0670158503176586
+task41_xhat_noie_grounded.mat,2,m/s²,full grounded recording,grounded t>=1 s,0.010108068858929516,0.009880294822484773,1.0230533643516784
+task41_xhat_noie_grounded.mat,3,m/s²,full grounded recording,grounded t>=1 s,0.09611230431018865,0.008952468366895594,10.73584405677348
+task41_xhat_noie_grounded.mat,4,rad/s,full grounded recording,grounded t>=1 s,0.000919130656915451,0.0008194738810447422,1.1216106799446213
+task41_xhat_noie_grounded.mat,5,rad/s,full grounded recording,grounded t>=1 s,0.0009476937779865958,0.0009465508799017683,1.0012074343905806
+task41_xhat_noie_grounded.mat,6,rad/s,full grounded recording,grounded t>=1 s,0.0011083550291368313,0.0008689541980963065,1.2755045450784412
+task41_xhat_noie_fligh.mat,1,rad,full in-flight recording,in-flight t=10–15 s (illustrative),0.04177190178593208,0.04012938741154516,1.0409304621957514
+task41_xhat_noie_fligh.mat,2,rad/s,full in-flight recording,in-flight t=10–15 s (illustrative),0.026123463578394228,0.025786397757573284,1.0130714582156768
+task41_xhat_noie_fligh.mat,3,rad,full in-flight recording,in-flight t=10–15 s (illustrative),0.13692753124423668,0.1369700494849036,0.9996895800152893
+task41_xhat_noie_fligh.mat,4,rad/s,full in-flight recording,in-flight t=10–15 s (illustrative),0.06396805370770826,0.058046848048159384,1.1020073588601447
+task41_xhat_noie_fligh.mat,5,rad,full in-flight recording,in-flight t=10–15 s (illustrative),0.10071491163935734,0.00328674556153282,30.642746678689516
+task41_xhat_noie_fligh.mat,6,rad/s,full in-flight recording,in-flight t=10–15 s (illustrative),0.04261017507244388,0.007752979091170219,5.495974459801153

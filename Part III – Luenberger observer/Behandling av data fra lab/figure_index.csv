@@ -1,0 +1,24 @@
+Figure filename,Size [KiB]
+01_task1_zero_channel_diagnostic.png,61.6
+02_task2_encoder_angles.png,144.0
+03_task2_encoder_rates.png,200.1
+04_task2_angle_rate_consistency.png,288.4
+05_task3_measurements.png,421.1
+06_task3_estimates.png,317.3
+07_task3_measurement_vs_estimate_all.png,545.8
+08_task3_angles_comparison.png,237.7
+09_task3_rates_comparison.png,292.4
+10_task3_residuals.png,435.7
+11_task3_residual_histograms.png,122.3
+12_task3_control_voltages.png,138.2
+13_task3_psd_comparison.png,401.4
+14_task2_encoder_rates_detail.png,215.4
+15_task3_measurement_vs_estimate_detail.png,640.6
+16_task3_residuals_detail.png,594.1
+17_task3_logged_value_changes_detail.png,94.2
+18_supplementary_task34_xhat.png,320.4
+19_supplementary_task34_y.png,49.6
+20_supplementary_task34_u.png,173.5
+21_supplementary_task34_u_early_zero.png,88.0
+22_task3_early_time_comparison.png,619.3
+23_task3_residual_trend.png,319.7
